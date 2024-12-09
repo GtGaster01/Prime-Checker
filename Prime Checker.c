@@ -30,14 +30,14 @@ int main(){
 
 // Function to check if the number is prime
 int primeChecker(int number){
-	
+	int i;
 	// 2 is a prime number
 	if(number==2){
 		return 1;
 	}else{
 	
 	// Check the number if its prime
-		for(int i=2; i<number; i++){
+		for(i=2; i<number; i++){
 			if(number%i==0){
 				return 0;
 				break;
